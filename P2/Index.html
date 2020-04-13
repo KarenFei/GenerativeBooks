@@ -1,0 +1,68 @@
+<<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/bindery.min.js"></script>
+    <title>Tin Toy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="content">
+  <!-- The contents of your book -->
+  <h2>Tin Toy</h2>
+  <div id="back"><h2></h2></div>
+
+  <div class='a'>
+    <div id="space"></div>
+  <p>People have been building mechanical figures as far back as ancient Greek times. In 1206, a Muslim engineer and inventor called Al-Jazari built what is believed to be the first programmable humanoid robots. They were musicians that played instruments while floating in a boat on a lake to entertain royal guests. Inventors continued to experiment with the idea of an automated human, including Leonardo da Vinci who made detailed drawings of a mechanical knight. Like a lot of his mechanical drawings, scientists and historians don’t know if he ever actually constructed this knight, but one has been built from his drawings in more modern times, and this robot is able to sit up, move its arms, head and jaw.</p>
+</div>
+
+
+  <p>The most complex mechanical creations were designed and made by a Japanese craftsman named Hisashige Tanaka who lived from 1799 to 1881. Among these toys were figures that could serve tea, shoot arrows and write.</p>
+  <p>Japanese factories had begun making simple tin toys in the late 19th century. Japan had observed the large profits earned by German manufacturers and hoped to obtain a share of the market. Japan produced a cheaper, more simple version of the German toys and by the end of WWI, Japan enjoyed the larger share of the business, leaving Germany far behind.</p>
+  <p>As a means to rebuild the Japanese economy post-WWII, many products that were previously made in the U.S. were sent overseas to be made in Japan. U.S. toy importers then bought the Japanese-made toys to sell to American customers. By the mid-1950’s, Japan had become the world’s primary toy manufacturer.</p>
+  <p>The word “robot” was first used in reference to artificial people by the Czech author Karel Capek in 1921. It originated from the Czech word “robota”, meaning “work” or “labor”.</p>
+  <p>The first tin toy robot to be made is believed to be Lilliput from Japan. The square, yellow robot was always thought to date from the 1930’s, but experts now believe he was actually first made in post-War occupied Japan around the mid-1940’s. The next robot that was released was Atomic Robot Man in the late 1940’s. He was given out as a promotional gift at the 1950 New York Sci-Fi Convention.</p>
+  <p>In 1940 Isaac Asimov released a series of short stories for “Super Science Stories Magazine” featuring a robot that develops affection for a child whose duty is was to protect. Asimov was responsible for developing the Three Laws of Robotics. These stated that (1.) A robot may not injure a human being, or through inaction, allow a human being to come to harm. (2.) A robot must obey the orders given it by human beings except where such orders would conflict with the First Law. (3.) A robot must protect its own existence as long as such protection does not conflict with the First or Second Law. </p>
+  <p>The first tin toy robot may have been made in Japan, but in fact, American companies manufactured the majority of the early toy robots. There was the Ideal Toy Corporation’s Robert the Robot, released in 1954. He was able to walk and talk, while his arms swung and his eyes lit up. These motions were initiated by a remote control that connected to the robot’s back with a wire. The release of Robert the Robot was followed by Marvelous Mike, The Robot Dog, Z-Man, Marx Electric Robot and Big Max. To compete with the American market the Japanese released a new and improved battery-operated robot in 1955 that didn’t require any wires.</p>
+  <p>We have seen robots evolve from a courtly amusement, to the hottest toys ever, to advanced technologies like artificial intelligence. But at Retroplanet.com our favorite incarnation of the robot is that of a retro toy. Robots can revive childhood memories that send you back in time at warp speed. So be sure to take look at the reproduction robots, posters, framed art and even drink coasters that we carry. They’re “out of this world”!</p>
+
+  <div id="back"><h2></h2></div>
+
+<div>
+   <p id="caption">1950’s<br>Cyborg Of Yore<br>Retro Robot Tin Toy</p>
+    <img id="image1" src="Image/robot3.jpg" />
+    <img id="image2"src="Image/robot6.jpg" />
+    <!-- <p id="caption2">1950’s<br>Lantern Robot<br>Battery Tin Toy</p> -->
+</div>
+
+<div>
+    <p id="caption3">1960’s<br>Big Loo Giant Moon Robot</p>
+    <img id="image4" src="Image/robot1.jpg" align="right"/>
+    <img id="image3"src="Image/robot2.jpg" align="right"/>
+</div>
+
+
+</div>
+
+
+<script>
+  Bindery.makeBook({
+   content: '#content',
+   pageSetup: {
+     size: {width:'7in', height:'9in'},
+     margin:{top:'0.5625in', inner:'0.625in', outer:'0.5in', bottom:'0.5625in'},
+   },
+   rules: [
+     Bindery.PageBreak({selector: 'h2', position: 'before' }),
+     Bindery.PageBreak({selector: 'h3', position: 'before' }),
+     Bindery.PageBreak({selector: 'div', position: 'before' }),
+     // Bindery.FullBleedSpread({selector: '.robot' }),
+   ],
+ });
+
+</script>
+  </body>
+</html>
