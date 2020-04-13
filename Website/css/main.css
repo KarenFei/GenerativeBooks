@@ -1,0 +1,182 @@
+body,html{
+  /* margin-top:20px; */
+  transition: background-color 1s ease;
+}
+#p1{
+  position:relative;
+  width:13%;
+    margin-top:12%;
+    left:14%;
+    /* visibility: hidden; */
+}
+#p2{
+  position:relative;
+  width:11%;
+    top:20%;
+    left:15%;
+    /* transform: rotate(40deg); */
+}
+#p3{
+  position:relative;
+  width:16%;
+    top:15%;
+    left:14%;
+}
+#p4{
+  position:relative;
+  width:16%;
+    top:15%;
+    left:14%;
+}
+#p5{
+  position:relative;
+  width:16%;
+    top:15%;
+    left:14%;
+}
+p{
+  position:relative;
+  font-family:"bangers";
+  font-size:110px;
+  top:66%;
+  text-decoration: none;
+  text-align: center;
+}
+a{
+  color:#ec641a;
+  text-decoration: none;
+}
+a:hover{
+  color:white;
+  text-decoration: none;
+}
+#bodytext{
+  position:relative;
+  font-family:"roboto";
+  font-size:28px;
+  text-decoration: none;
+  text-align: justify;
+  color:#ec641a;
+  /* margin-top:80px; */
+  margin-bottom:80px;
+}
+#bodytext2{
+  position:relative;
+  font-family:"lato";
+  font-size:20px;
+  text-decoration: none;
+  text-align: justify;
+  color:#ec641a;
+}
+#body{
+  margin-top:60px;
+  margin-left:200px;
+  margin-right:200px;
+}
+/* #body2{
+  margin-top:200px;
+  margin-left:200px;
+  margin-right:200px;
+} */
+.panel {
+  /* min height incase content is higher than window height */
+  min-height: 100vh;
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  /* outline: 10px solid #ec641a; */
+  /* turn above on to see the edge of panels */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+.row{
+  margin-top:400px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* colours */
+.color-black {
+  background-color: black;
+}
+.color-orange {
+  background-color: #ec641a;
+}
+.color-white {
+  background-color: white;
+}
+.color-green {
+  background-color: #4DCF42;
+}
+.color-yellow {
+  background-color: #FAEB33;
+}
+.color-orange {
+  background-color: #F19031;
+}
+.color-red {
+  background-color: #F2293A;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 24.5px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#blank{
+  height:200px;
+}
+
+#blank2{
+  height:500px;
+}
+
+#poster{
+  margin-top:200px;
+}
+#poster2{
+  margin-top:200px;
+}
+#caption{
+  position:relative;
+  font-family:"roboto medium";
+  font-size:15px;
+  text-decoration: none;
+  text-align: center;
+  color:white;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.center {
+  display: block;
+  margin-top:100px;
+  margin-left: auto;
+  margin-right:auto;
+  width: 50%;
+}
